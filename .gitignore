@@ -1,0 +1,770 @@
+Last login: Thu Aug  2 14:06:38 on ttys001
+pythError checking TLS connection: Host is not running
+Forests-MBP:~ Forest$ pythclear
+-bash: pythclear: command not found
+Forests-MBP:~ Forest$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Forests-MBP:~ Forest$ python --version
+Python 3.6.5
+Forests-MBP:~ Forest$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Forests-MBP:~ Forest$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Forests-MBP:~ Forest$ cd Documents/codepractice/
+Forests-MBP:codepractice Forest$ ls
+algorithms
+Forests-MBP:codepractice Forest$ cd algorithms/
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+[50, 5]
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+[3, 50, 5]
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+Traceback (most recent call last):
+  File "peakfinder_1D.py", line 36, in <module>
+    timeit.timeit('bruteforce(a)')
+  File "/Users/Forest/.pyenv/versions/3.6.5/lib/python3.6/timeit.py", line 233, in timeit
+    return Timer(stmt, setup, timer, globals).timeit(number)
+  File "/Users/Forest/.pyenv/versions/3.6.5/lib/python3.6/timeit.py", line 178, in timeit
+    timing = self.inner(it, self.timer)
+  File "<timeit-src>", line 6, in inner
+NameError: name 'bruteforce' is not defined
+Forests-MBP:algorithms Forest$ clear
+
+
+
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+Traceback (most recent call last):
+  File "peakfinder_1D.py", line 36, in <module>
+    timeit.timeit('bruteforce(a)')
+  File "/Users/Forest/.pyenv/versions/3.6.5/lib/python3.6/timeit.py", line 233, in timeit
+    return Timer(stmt, setup, timer, globals).timeit(number)
+  File "/Users/Forest/.pyenv/versions/3.6.5/lib/python3.6/timeit.py", line 178, in timeit
+    timing = self.inner(it, self.timer)
+  File "<timeit-src>", line 6, in inner
+NameError: name 'bruteforce' is not defined
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+<timeit.Timer object at 0x10d33e4e0>
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+Traceback (most recent call last):
+  File "peakfinder_1D.py", line 43, in <module>
+    t.timeit(1)
+  File "/Users/Forest/.pyenv/versions/3.6.5/lib/python3.6/timeit.py", line 178, in timeit
+    timing = self.inner(it, self.timer)
+  File "<timeit-src>", line 6, in inner
+NameError: name 'bruteforce' is not defined
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+Traceback (most recent call last):
+  File "peakfinder_1D.py", line 41, in <module>
+    t = timeit.timeit('bruteforce(a)', 'from __main__ import bruteforce')
+  File "/Users/Forest/.pyenv/versions/3.6.5/lib/python3.6/timeit.py", line 233, in timeit
+    return Timer(stmt, setup, timer, globals).timeit(number)
+  File "/Users/Forest/.pyenv/versions/3.6.5/lib/python3.6/timeit.py", line 178, in timeit
+    timing = self.inner(it, self.timer)
+  File "<timeit-src>", line 6, in inner
+NameError: name 'a' is not defined
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+1.1230004020035267e-06
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+1.2569944374263287e-06
+6.530317477881908e-07
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+TIME OF BRUTE FORCE FOR LENGTH 1,000,000: 1.1249794624745846e-06
+TIME OF DIVIDE AND CONQUER FOR LENGTH 1,000,000: 7.949420250952244e-07
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+TIME OF BRUTE FORCE: 1.2409873306751251e-06
+TIME OF DIVIDE AND CONQUER: 8.849892765283585e-07
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+  File "peakfinder_1D.py", line 28
+    if a[idx] >=
+               ^
+SyntaxError: invalid syntax
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+list index out of range
+TIME OF BRUTE FORCE: 1.2159580364823341e-06
+TIME OF DIVIDE AND CONQUER: 6.370246410369873e-07
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+Traceback (most recent call last):
+  File "peakfinder_1D.py", line 45, in <module>
+    raise exc
+  File "peakfinder_1D.py", line 43, in <module>
+    print(a[1000005])
+IndexError: list index out of range
+Forests-MBP:algorithms Forest$  
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$  
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+  File "peakfinder_1D.py", line 36
+    if ele >= a[idx - 1] && ele >= right:
+                          ^
+SyntaxError: invalid syntax
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+SUCCESS AT 0 WITH 1000000
+SUCCESS AT 999998 WITH 50
+TIME OF BRUTE FORCE: 0.1670377659611404
+TIME OF DIVIDE AND CONQUER: 1.0050134733319283e-06
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+SUCCESS AT 0 WITH 1000000
+SUCCESS AT 999998 WITH 50
+TIME OF BRUTE FORCE: 0.20041739399312064
+TIME OF DIVIDE AND CONQUER: 9.639770723879337e-07
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+
+BRUTE FORCE:
+
+SUCCESS AT 0 WITH 1000000
+SUCCESS AT 999998 WITH 50
+TIME OF BRUTE FORCE: 0.1970906900241971
+
+TIME OF DIVIDE AND CONQUER: 9.840005077421665e-07
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 0 WITH 1000000
+SUCCESS AT 999998 WITH 50
+TIME OF BRUTE FORCE: 0.20040241797687486
+
+TIME OF DIVIDE AND CONQUER: 1.0490184649825096e-06
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 0 WITH 1000000
+SUCCESS AT 999998 WITH 50
+
+TIME OF BRUTE FORCE: 0.20648277702275664
+
+TIME OF DIVIDE AND CONQUER: 1.060019712895155e-06
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+5
+
+BRUTE FORCE:
+
+SUCCESS AT 0 WITH 1000000
+SUCCESS AT 999998 WITH 50
+
+TIME OF BRUTE FORCE: 0.2001233240007423
+
+TIME OF DIVIDE AND CONQUER: 1.6959966160356998e-06
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+Traceback (most recent call last):
+  File "peakfinder_1D.py", line 55, in <module>
+    print('\nTIME OF BRUTE FORCE: {}\n'.format(t.timeit(1)))
+  File "/Users/Forest/.pyenv/versions/3.6.5/lib/python3.6/timeit.py", line 178, in timeit
+    timing = self.inner(it, self.timer)
+  File "<timeit-src>", line 6, in inner
+  File "peakfinder_1D.py", line 38, in bruteforce
+    if ele >= left and ele >= right:
+NameError: name 'left' is not defined
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 999998 WITH 50
+
+TIME OF BRUTE FORCE: 0.2467275770031847
+
+TIME OF DIVIDE AND CONQUER: 1.2049567885696888e-06
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 999998 WITH 50
+TIME OF BRUTE FORCE: 0.24076949199661613
+
+TIME OF DIVIDE AND CONQUER: 9.579816833138466e-07
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 999998 WITH 50
+TIME OF BRUTE FORCE: 0.24489348503993824
+
+TIME OF DIVIDE AND CONQUER: 8.320203050971031e-07
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 999998 WITH 50
+TIME OF BRUTE FORCE: 0.24948650202713907
+
+TIME OF DIVIDE AND CONQUER: 8.809729479253292e-07
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 999998 WITH [3,50,5]
+TIME OF BRUTE FORCE: 0.24828557000728324
+
+TIME OF DIVIDE AND CONQUER: 8.780043572187424e-07
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 999998 WITH [3,50,5]
+TIME OF BRUTE FORCE: 0.27235318103339523
+
+TIME OF DIVIDE AND CONQUER: 1.3650278560817242e-06
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 999998 WITH [3, 50, 5]
+TIME OF BRUTE FORCE: 0.23931232502218336
+
+TIME OF DIVIDE AND CONQUER: 8.93021933734417e-07
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT idx: 999998 WITH [3, 50, 5]
+TIME OF BRUTE FORCE: 0.239060599997174
+
+TIME OF DIVIDE AND CONQUER: 9.959912858903408e-07
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT idx999998 WITH [3, 50, 5]
+TIME OF BRUTE FORCE: 0.2586877879803069
+
+TIME OF DIVIDE AND CONQUER: 8.860370144248009e-07
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 999998 WITH [3, 50, 5]
+TIME OF BRUTE FORCE: 0.24705693201394752
+
+TIME OF DIVIDE AND CONQUER: 8.860370144248009e-07
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+  File "peakfinder_1D.py", line 59
+    print left_half[0]
+                  ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(left_half[0])?
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+Traceback (most recent call last):
+  File "peakfinder_1D.py", line 58, in <module>
+    left_half = a[half:]
+NameError: name 'half' is not defined
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+Traceback (most recent call last):
+  File "peakfinder_1D.py", line 59, in <module>
+    print(left_half[0])
+IndexError: list index out of range
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+Traceback (most recent call last):
+  File "peakfinder_1D.py", line 59, in <module>
+    print(left_half[1])
+IndexError: list index out of range
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+[]
+
+BRUTE FORCE:
+
+SUCCESS AT 999998 WITH [3, 50, 5]
+TIME OF BRUTE FORCE: 0.23798909597098827
+
+Traceback (most recent call last):
+  File "peakfinder_1D.py", line 66, in <module>
+    print('TIME OF DIVIDE AND CONQUER: {}'.format(t.timeit(1)))
+  File "/Users/Forest/.pyenv/versions/3.6.5/lib/python3.6/timeit.py", line 178, in timeit
+    timing = self.inner(it, self.timer)
+  File "<timeit-src>", line 6, in inner
+  File "peakfinder_1D.py", line 52, in divide_and_conquer
+    if a[half] < a[half - 1]:
+IndexError: list index out of range
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 999998 WITH [3, 50, 5]
+TIME OF BRUTE FORCE: 0.25652221200289205
+
+Traceback (most recent call last):
+  File "peakfinder_1D.py", line 65, in <module>
+    print('TIME OF DIVIDE AND CONQUER: {}'.format(t.timeit(1)))
+  File "/Users/Forest/.pyenv/versions/3.6.5/lib/python3.6/timeit.py", line 178, in timeit
+    timing = self.inner(it, self.timer)
+  File "<timeit-src>", line 6, in inner
+  File "peakfinder_1D.py", line 52, in divide_and_conquer
+    if a[half] < a[half - 1]:
+IndexError: list index out of range
+Forests-MBP:algorithms Forest$ lear
+-bash: lear: command not found
+Forests-MBP:algorithms Forest$ clear
+
+Forests-MBP:algorithms Forest$ lear
+-bash: lear: command not found
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 999998 WITH [3, 50, 5]
+TIME OF BRUTE FORCE: 0.24153459799708799
+
+Traceback (most recent call last):
+  File "peakfinder_1D.py", line 65, in <module>
+    print('TIME OF DIVIDE AND CONQUER: {}'.format(t.timeit(1)))
+  File "/Users/Forest/.pyenv/versions/3.6.5/lib/python3.6/timeit.py", line 178, in timeit
+    timing = self.inner(it, self.timer)
+  File "<timeit-src>", line 6, in inner
+  File "peakfinder_1D.py", line 52, in divide_and_conquer
+    if a[half] < a[half - 1]:
+IndexError: list index out of range
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 999998 WITH [3, 50, 5]
+TIME OF BRUTE FORCE: 0.23569087003124878
+
+Traceback (most recent call last):
+  File "peakfinder_1D.py", line 65, in <module>
+    print('TIME OF DIVIDE AND CONQUER: {}'.format(t.timeit(1)))
+  File "/Users/Forest/.pyenv/versions/3.6.5/lib/python3.6/timeit.py", line 178, in timeit
+    timing = self.inner(it, self.timer)
+  File "<timeit-src>", line 6, in inner
+  File "peakfinder_1D.py", line 52, in divide_and_conquer
+    if a[half] < a[half - 1]:
+IndexError: list index out of range
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 999998 WITH [3, 50, 5]
+TIME OF BRUTE FORCE: 0.2562598490039818
+
+Traceback (most recent call last):
+  File "peakfinder_1D.py", line 65, in <module>
+    print('TIME OF DIVIDE AND CONQUER: {}'.format(t.timeit(1)))
+  File "/Users/Forest/.pyenv/versions/3.6.5/lib/python3.6/timeit.py", line 178, in timeit
+    timing = self.inner(it, self.timer)
+  File "<timeit-src>", line 6, in inner
+  File "peakfinder_1D.py", line 52, in divide_and_conquer
+    if a[half] < a[half - 1]:
+IndexError: list index out of range
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 999998 WITH [3, 50, 5]
+TIME OF BRUTE FORCE: 0.24317097896710038
+
+1000000
+Traceback (most recent call last):
+  File "peakfinder_1D.py", line 66, in <module>
+    print('TIME OF DIVIDE AND CONQUER: {}'.format(t.timeit(1)))
+  File "/Users/Forest/.pyenv/versions/3.6.5/lib/python3.6/timeit.py", line 178, in timeit
+    timing = self.inner(it, self.timer)
+  File "<timeit-src>", line 6, in inner
+  File "peakfinder_1D.py", line 53, in divide_and_conquer
+    if a[half] < a[half - 1]:
+IndexError: list index out of range
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 999998 WITH [3, 50, 5]
+TIME OF BRUTE FORCE: 0.24645290098851547
+
+500000
+250000
+125000
+62500
+31250
+15625
+7812
+3906
+1953
+977
+488
+244
+122
+61
+31
+15
+8
+4
+2
+TIME OF DIVIDE AND CONQUER: 0.011169378994964063
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 999998 WITH [3, 50, 5]
+TIME OF BRUTE FORCE: 0.24460606201319024
+
+SUCCESS AT 2 WITH [3 ,50, 5]
+TIME OF DIVIDE AND CONQUER: 0.008770701999310404
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 999998 WITH [3, 50, 5]
+TIME OF BRUTE FORCE: 0.23541753203608096
+
+DIVIDE AND CONQUER:
+
+SUCCESS AT 2 WITH [3 ,50, 5]
+TIME OF DIVIDE AND CONQUER: 0.008835370012093335
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 999998 WITH [3, 50, 5]
+TIME OF BRUTE FORCE: 0.2297094920068048
+
+DIVIDE AND CONQUER:
+
+SUCCESS AT 2 WITH [3, 50, 5]
+TIME OF DIVIDE AND CONQUER: 0.008925014990381896
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 999998 WITH [3, 50, 5]
+TIME OF BRUTE FORCE: 0.2652225120109506
+
+DIVIDE AND CONQUER:
+
+SUCCESS AT 2 WITH [3, 50, 5]
+TIME OF DIVIDE AND CONQUER: 0.010739476012531668
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 999998 WITH [3, 50, 5]
+TIME OF BRUTE FORCE: 0.25056485197274014s
+
+DIVIDE AND CONQUER:
+
+SUCCESS AT 2 WITH [3, 50, 5]
+TIME OF DIVIDE AND CONQUER: 0.008964798005763441s
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 999998 WITH [3, 50, 5]
+TIME OF BRUTE FORCE: 0.2579615460126661s
+
+DIVIDE AND CONQUER:
+
+SUCCESS AT 2 WITH [3, 50, 5]
+TIME OF DIVIDE AND CONQUER: 0.009481479995884001s
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 999998 WITH [3, 50, 5]
+TIME OF BRUTE FORCE: 0.25076535099651664s
+
+DIVIDE AND CONQUER:
+
+SUCCESS AT 2 WITH [3, 50, 5]
+TIME OF DIVIDE AND CONQUER: 0.008802848984487355s
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 999998 WITH [3, 50, 5]
+TIME OF BRUTE FORCE: 0.2425844999961555s
+
+DIVIDE AND CONQUER:
+
+SUCCESS AT 2 WITH [3, 50, 5]
+TIME OF DIVIDE AND CONQUER: 0.00902306503849104s
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 999998 WITH [3, 50, 5]
+TIME OF BRUTE FORCE: 0.23958601104095578s
+
+DIVIDE AND CONQUER:
+
+SUCCESS AT 2 WITH [3, 50, 5]
+TIME OF DIVIDE AND CONQUER: 0.009249644004739821s
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 999998 WITH [3, 50, 5]
+TIME OF BRUTE FORCE: 0.24881452502449974s
+
+DIVIDE AND CONQUER:
+
+SUCCESS AT 2 WITH [3, 50, 5]
+TIME OF DIVIDE AND CONQUER: 0.008818683039862663s
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 999998 WITH [3, 50, 5]
+TIME OF BRUTE FORCE: 0.24167684197891504s
+
+DIVIDE AND CONQUER:
+
+SUCCESS AT 2 WITH [3, 50, 5]
+TIME OF DIVIDE AND CONQUER: 0.00869802403030917s
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 999998 WITH [3, 50, 5]
+TIME OF BRUTE FORCE: 0.24656162300379947s
+
+DIVIDE AND CONQUER:
+
+SUCCESS AT 2 WITH [3, 50, 5]
+TIME OF DIVIDE AND CONQUER: 0.008639850013423711s
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 999998 WITH [3, 50, 5]
+TIME OF BRUTE FORCE: 0.24717217002762482s
+
+DIVIDE AND CONQUER:
+
+SUCCESS AT 2 WITH [3, 50, 5]
+TIME OF DIVIDE AND CONQUER: 0.009470418968703598s
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ python peakfinder_1D.py 
+
+BRUTE FORCE:
+
+SUCCESS AT 999998 WITH [3, 50, 5]
+TIME OF BRUTE FORCE: 0.2457283070543781s
+
+DIVIDE AND CONQUER:
+
+SUCCESS AT 2 WITH [3, 50, 5]
+TIME OF DIVIDE AND CONQUER: 0.008556345012038946s
+Forests-MBP:algorithms Forest$ 
+
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+Forests-MBP:algorithms Forest$ 
+  [Restored Sep 20, 2018 at 10:41:48 AM]
+Last login: Tue Sep 18 08:29:53 on console
+Error checking TLS connection: Host is not running
+Forests-MacBook-Pro:algorithms Forest$ clear
+
+Forests-MacBook-Pro:algorithms Forest$ cd ..
+Forests-MacBook-Pro:codepractice Forest$ cd ..
+Forests-MacBook-Pro:Documents Forest$ cd Duke/SVII/IS
+Forests-MacBook-Pro:IS Forest$ ls
+authoridentification.docx
+hemingway
+ugrad_independent_study_permission_form.pdf
+~$thoridentification.docx
+Forests-MacBook-Pro:IS Forest$ git clone https://github.com/forestctaylor/computational-linguistics.git
+Cloning into 'computational-linguistics'...
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+Forests-MacBook-Pro:IS Forest$ cd computational-linguistics/
+Forests-MacBook-Pro:computational-linguistics Forest$ emacs .gitignore
+
+
+
+
+
+
+
+*.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-uuu:**-F1  .gitignore     All L1     (Fundamental)-----------------------------
+
